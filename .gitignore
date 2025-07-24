@@ -1,2 +1,14 @@
 *.zip
 *.pt
+
+# ignore all images
+images/
+test/predictions/
+train/images/
+val/images/
+
+# optionally, ignore specific extensions anywhere
+*.jpg
+*.jpeg
+*.png
+*.bmp
